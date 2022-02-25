@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap");
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* headings */
+
+.main-heading {
+    font-size: 4rem;
+    text-align: center;
+}
+
+/* navbar */
+
+.navbar {
+    background-color: #ff0000;
+}
+
+#full-brand {
+    font-weight: bold;
+}
+
+/* about */
+
+#about {
+    padding: 2rem;
+}
+
+#about-heading {
+    padding-top: 10%;
+}
+
+.about-p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* gallery */
+
+#gallery {
+    padding: 2rem;
+    background-color: #ff0000;
+}
+
+.carousel-fade .carousel-item,
+.carousel-item img {
+    max-height: 85vh;
+}
+
+/* meet us */
+
+#meet-us {
+    padding: 2rem;
+}
+
+.meet-card {
+    text-align: center;
+}
+
+.meet-card-name {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.meet-card-role {
+    font-size: 1.5rem;
+}
+
+.meet-card-img {
+    max-height: 50vh;
+    border-radius: 60%;
+}
+
+.card {
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* calendar */
+
+#calendar {
+    padding: 2rem;
+    text-align: center;
+    background-color: #ff0000;
+}
+
+#calendar-heading {
+    margin-bottom: 1rem;
+}
+
+#iframe-calendar {
+    max-height: 45%;
+}
+
+/* contact */
+
+#contact {
+    padding: 2rem;
+}
+
+#contact-container {
+    padding: 2rem;
+}
+
+.contact-subheading {
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+.contact-p {
+    font-size: 2rem;
+}
+
+#iframe-map {
+    border: 1rem;
+    border-color: black;
+}
+
+/* media queries */
+
+@media screen and (min-width: 600px) {
+    #about-heading {
+        padding-top: 3%;
+    }
+}
+
+/* @media screen and (min-width: 600px) {
+    #initial-brand {
+        display: none;
+    }    
+}
+
+@media screen and (max-width: 600px) {
+    #full-brand {
+        display: none;
+    }
+} */
+
+/* effects */
+
+.hvr-glow {
+    /* display: inline-block;
+    vertical-align: middle; */
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(255, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+}
+.hvr-glow:hover,
+.hvr-glow:focus,
+.hvr-glow:active {
+    box-shadow: 0 0 8px rgb(255, 0, 0);
+}
+
+.hvr-glow-black {
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+}
+.hvr-glow-black:hover,
+.hvr-glow-black:focus,
+.hvr-glow-black:active {
+    box-shadow: 0 0 8px rgb(0, 0, 0);
+}
