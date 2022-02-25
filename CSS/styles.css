@@ -137,6 +137,12 @@ body {
     }
 } 
 
+@media screen and (max-width: 600px) {
+    .contact-p {
+        font-size: 1.4rem;
+    }
+}
+
 /* effects */
 
 .hvr-glow {
