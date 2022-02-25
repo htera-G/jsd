@@ -125,7 +125,7 @@ body {
     }
 }
 
-/* @media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) {
     #initial-brand {
         display: none;
     }    
@@ -135,7 +135,7 @@ body {
     #full-brand {
         display: none;
     }
-} */
+} 
 
 /* effects */
 
